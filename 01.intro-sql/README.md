@@ -1,4 +1,10 @@
-# SELECT: una query de consult a un banco
+- [SELECT una query de consult a un banco](#select-una-query-de-consult-a-un-banco)
+  - [¿Cuáles son los principales comandos SQL?](#cuáles-son-los-principales-comandos-sql)
+- [SQL y Modelado de base de datos](#sql-y-modelado-de-base-de-datos)
+- [Instalando MySQL Server](#instalando-mysql-server)
+    - [Lo que aprendimos en esta aula:](#lo-que-aprendimos-en-esta-aula)
+
+# SELECT una query de consult a un banco
 
 Imagine que tiene una tabla de base de datos, que realmente se puede hacer una analogía con una `Planilla de Excel` para guardar las informaciones de sus facturas:
 
@@ -46,7 +52,7 @@ También podríamos enumerar todos los campos ordenados por fecha de pago, usand
 
 <br><br>
 
-# ¿Cuáles son los principales comandos SQL?
+## ¿Cuáles son los principales comandos SQL?
 
 Los comandos SQL principales son:
 
@@ -67,6 +73,7 @@ Además de estos comandos, estarás expuesto a formas de crear tablas y columnas
 
 Por ejemplo, la tabla de arriba la creamos usando:
 
+```sql
     CREATE TABLE facturas (
     id INT AUTO_INCREMENT,
     titulo VARCHAR(255) NOT NULL,
@@ -74,6 +81,7 @@ Por ejemplo, la tabla de arriba la creamos usando:
     valor DOUBLE,
     PRIMARY KEY (id)
     );
+```
 
 <br><br>
 

@@ -1,3 +1,18 @@
+- [MySQL](#mysql)
+  - [Como esta organizada una base de datos?](#como-esta-organizada-una-base-de-datos)
+  - [**Campos**](#campos)
+  - [**Registros**](#registros)
+  - [**Indice**](#indice)
+  - [**(\*)Clave primaria**](#clave-primaria)
+  - [**(\*)Clave Externa (Foranea)**](#clave-externa-foranea)
+  - [**Esquemas**](#esquemas)
+  - [**View (Vista)**](#view-vista)
+  - [**Procedures (Procedimientos)**](#procedures-procedimientos)
+  - [**Disparador (Trigger)**](#disparador-trigger)
+  - [**Creando base de dato**](#creando-base-de-dato)
+  - [**Eliminando una Base de Datos**](#eliminando-una-base-de-datos)
+  - [**Conectarnos por consola**](#conectarnos-por-consola)
+
 # MySQL
 
 <br>
@@ -126,7 +141,7 @@ Facilita tomar elemento de varias tablas con diferentes datos especificos.
 
 <br> <br>
 
-## **CREAMOS BASE DE DATO**
+## **Creando base de dato**
 
     CREATE {DATABASE | SCHEMA} [IF NOT EXISTS] db_name
         [create_option]
